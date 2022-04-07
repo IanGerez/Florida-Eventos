@@ -1,0 +1,241 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    overflow: hidden;
+}
+
+.menu {
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 90px;
+    list-style: none;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    color: white;
+    font-family:"montserrat"
+}
+
+.barra {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-family:"montserrat"
+}
+
+.portada-imagen {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 60px;
+}
+
+.nosotros {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.nosotros h2 {
+    margin-bottom: 10px;
+    font-family:"bebas+neue";
+}
+
+.qstexto {
+    padding-bottom: 50px;
+    text-align: center;
+    font-family:"montserrat";
+    
+}
+
+.portada-9 {
+    width: 50%;
+}
+
+.eventos {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+}
+
+.sociales {
+    width: 100%;
+}
+
+.sociales h2 {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-family:"bebas+neue";
+}
+
+.sociales p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family:"montserrat";
+}
+
+.img-social {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.corporativo {
+    width: 100%;
+}
+
+.corporativo h2 {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-family:"bebas+neue";
+}
+
+.corporativo p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family:"montserrat";
+}
+
+.img-corpo {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.galeria {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+}
+
+.img-titulo {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family:"bebas+neue";
+}
+
+.formulario-contacto {
+    padding-top: 70px;
+    text-align: center;
+    font-family:"montserrat";
+}
+
+.formulario-contacto h2 {
+    padding-bottom: 40px;
+    font-family:"bebas+neue";
+}
+
+.formulario-contacto h4 {
+    padding-bottom: 20px;
+    font-family:"montserrat";
+}
+
+.footer {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    font-family:"montserrat";
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-family:"montserrat";
+}
+
+@media screen and (max-width: 600px) {
+    .qstexto {
+        padding-bottom: 50px;
+        text-align: center;
+        justify-items: center;
+        font-size: small;
+        font-family:"montserrat";
+    }
+
+    .portada-9 {
+        width: 70%;
+    }
+
+    .eventos {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 50px;
+    }
+
+    .sociales h2 {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        font-size: small;
+        font-family:"bebas+neue";
+    }
+    
+    .sociales p {
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: small;
+        font-family:"montserrat";
+    }
+    
+    .img-social {
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+    .corporativo h2 {
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        font-size: small;
+        font-family:"bebas+neue";
+    }
+    
+    .corporativo p {
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: small;
+        font-family:"montserrat";
+    }
+    
+    .img-corpo {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .menu {
+        width: 100%;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 50px;
+        list-style: none;
+        align-items: center;
+        position: fixed;
+        background-color: black;
+        color: white;
+        font-family:"montserrat"
+    }
+
+    .barra {
+        text-decoration: none;
+        font-family: sans-serif;
+        color: white;
+        font-family:"montserrat";
+        font-size: small;
+    }
+
+}
