@@ -13,23 +13,8 @@ body {
     overflow: hidden;
 }
 
-.menu {
-    width: 100%;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 90px;
-    list-style: none;
-    align-items: center;
-    position: fixed;
-    background-color: black;
-    color: white;
-    font-family:"montserrat"
-}
-
-.barra {
-    text-decoration: none;
-    font-family: sans-serif;
-    color: white;
-    font-family:"montserrat"
+.container-fluid {
+    font-family: "montserrat";
 }
 
 .portada-imagen {
@@ -139,11 +124,11 @@ body {
 }
 
 .form-label {
-    font-family:"bebas+neue";
+    font-family:"montserrat";
 }
 
 .form-control {
-    font-family:"bebas+neue";
+    font-family:"montserrat";
 }
 
 .col mb-3 {
@@ -167,7 +152,15 @@ body {
     font-family:"montserrat";
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+    
+    .navbar-collapse {
+        text-align: end;
+        font-size: 13px;
+        font-family: "montserrat";
+    }
+
+
     .qstexto {
         padding-bottom: 50px;
         text-align: center;
@@ -228,26 +221,6 @@ body {
         padding-top: 50px;
     }
 
-    .menu {
-        width: 100%;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: 50px;
-        list-style: none;
-        align-items: center;
-        position: fixed;
-        background-color: black;
-        color: white;
-        font-family:"montserrat"
-    }
-
-    .barra {
-        text-decoration: none;
-        font-family: sans-serif;
-        color: white;
-        font-family:"montserrat";
-        font-size: small;
-    }
-
     .footer {
         width: 100%;
         grid-template-columns: repeat(3, 1fr);
@@ -257,13 +230,29 @@ body {
         background-color: black;
         color: white;
         font-family:"montserrat";
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .footer a {
         text-decoration: none;
         color: white;
         font-family:"montserrat";
+        font-size: 12px;
+    }
+
+    .form-label {
+        font-family:"montserrat";
+        font-size: 13px;
+    }
+    
+    .form-control {
+        font-family:"montserrat";
+    }
+
+    .container h4 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family:"bebas+neue";
         font-size: 15px;
     }
 
