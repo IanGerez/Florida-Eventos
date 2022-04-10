@@ -97,13 +97,7 @@ body {
     padding-top: 50px;
 }
 
-.galeria {
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: black;
-}
-
-.img-titulo {
+.galeria-de-fotos {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -113,7 +107,7 @@ body {
 .container h2 {
     text-align: center;
     padding-top: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     font-family:"bebas+neue";
 }
 
