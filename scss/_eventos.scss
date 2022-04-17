@@ -1,0 +1,51 @@
+.eventos {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+}
+
+.sociales {
+    width: 100%;
+}
+
+.sociales h2 {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-family:"bebas+neue";
+}
+
+.sociales p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family:"montserrat";
+}
+
+.img-social {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.corporativo {
+    width: 100%;
+}
+
+.corporativo h2 {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-family:"bebas+neue";
+}
+
+.corporativo p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family:"montserrat";
+}
+
+.img-corpo {
+    width: 100%;
+    padding-top: 50px;
+}

@@ -166,6 +166,12 @@ body {
   .img-corpo {
     width: 100%;
     padding-top: 50px; }
+  .galeria-de-fotos h2 {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: small;
+    font-family: "bebas+neue"; }
   .footer {
     width: 100%;
     grid-template-columns: repeat(3, 1fr);

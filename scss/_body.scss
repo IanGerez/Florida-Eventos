@@ -1,0 +1,24 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    overflow: hidden;
+}
+
+.container-fluid {
+    font-family: "montserrat";
+}
+
+.portada-imagen {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 60px;
+}
