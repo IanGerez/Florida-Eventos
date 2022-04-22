@@ -1,8 +1,12 @@
+$fuente: ('bebas': bebas+neue, 'montserrat': montserrat);
+
 .container h2 {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 50px;
-    font-family:"bebas+neue";
+    @each $var in $fuente {
+        
+    }
 }
 
 .container h4 {
