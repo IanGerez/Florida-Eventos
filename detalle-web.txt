@@ -1,0 +1,16 @@
+﻿Servicios detallados:
+
+*Diseño del sitio:
+- Diseño de los frameworks para definir la estructura del sitio.
+- Diseño de las páginas ( Home, Contacto, Imagenes, Etc) en versión
+   Desktop y Mobile.
+
+*Desarrollo del sitio:
+- Creación y desarrollo de las páginas diseñadas previamente.
+- Implementación de formulario en la página de Contacto.
+
+*SEO
+- Instalación de Google Analytics para medir las visitas y rendimiento del sitio.
+- Registrar el sitio en Search Console.
+- Enviar Sitemap a Google.
+- Utilizar palabras claves.
